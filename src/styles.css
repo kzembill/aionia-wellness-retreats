@@ -1,0 +1,245 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #4F6187;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.img-responsive {
+    width: 100%;
+    display: block;
+    aspect-ratio: 1/1;
+}
+.grid {
+    display: grid;
+    grid-gap: 64px;
+}
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #556996;
+    padding: 30px 30px;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+    
+}
+.grid-3-columns-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+   
+}
+.card {
+    background-color: #FDA32A;
+    margin: 30px 0;
+}
+.card-header.grid {
+    grid-gap: 0;
+    
+}
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+.card-header{
+    display: grid;
+}
+.card-body {
+    padding: 30px;
+}
+.card-footer {
+    padding:16px 16px 16px 16px;
+    
+}
+.btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #DA6B96;
+    text-decoration: none;
+  }
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+}
+section .secondary {
+    background: #FDA32A;
+}
+   
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/kalymnos2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+    text-align: center;
+    padding: 200px 0;
+  
+}
+header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin:0;
+}
+header h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+header a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #8472ca;
+    padding:16px  32px;
+    margin: top 32px;
+    display: inline-block;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+main {
+    background-color: #D7C2B1;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size:16px;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: 5px;
+    color: #556996;
+    opacity: 0.3;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+main h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #556996;
+    margin: 0;
+}
+main h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+}
+main h5 {
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0;
+    line-height: 1;
+    color: #272044;
+  }
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #556996;
+    opacity: 0.7;
+}
+.pop-art-embeds {
+    margin: 30px 0;
+}
+footer {
+    color: rgb(211, 93, 103);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/moodboard.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+footer a {
+    color: rgb(235, 112, 208);
+    opacity: 0.7;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-right: 20px;
+    line-height: 24px;
+}
+
+footer ul:hover{
+    padding: 0;
+    
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: #DB5F6D;
+    opacity: 0.7;
+}
+
+@media (max-width: 960px){
+    header {
+        padding:60px 0; 
+    }
+    header h1 {
+        font-size: 48px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header h3 {
+        font-size: 12px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+    section {
+        padding: 30px;
+    }
+    .card-header img {
+        display: none;
+    }
+    .embed {
+        aspect-ratio: 16/9;
+    }
+}
